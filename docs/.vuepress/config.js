@@ -30,7 +30,9 @@ module.exports = {
                   '/设计模式/设计模式｜状态机模式（State Machine Pattern）.md',
                   '/设计模式/设计模式｜责任链模式（Chain of Responsibility Pattern）.md',
                   '/设计模式/设计模式｜命令模式（Command Pattern）.md',
-                  '/设计模式/设计模式｜单例模式（Singleton Pattern）.md'
+                  '/设计模式/设计模式｜单例模式（Singleton Pattern）.md',
+                  '/设计模式/设计模式｜装饰器模式（Decorator Pattern）.md'
+
 
 
               ]
