@@ -34,9 +34,8 @@ module.exports = {
                   '/设计模式/设计模式｜装饰器模式（Decorator Pattern）.md',
                   '/设计模式/设计模式｜建造者模式（Builder Pattern）.md',
                   '/设计模式/设计模式｜适配器模式（Adapter Pattern）.md',
-                  '/设计模式/设计模式｜访问者模式（Visitor Pattern).md'
-
-
+                  '/设计模式/设计模式｜访问者模式（Visitor Pattern).md',
+                  '/设计模式/设计模式｜组合模式（Composite Pattern）.md'
               ]
           },
            { title: '消息中间件',
