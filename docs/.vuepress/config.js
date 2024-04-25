@@ -20,7 +20,7 @@ module.exports = {
       sidebar:[
           {
               title: '设计模式',
-              collapsable: false,
+              collapsable: true,
               sidebarDepth: 1,
               children: [
                   '/设计模式/设计模式｜策略模式.md',
@@ -71,6 +71,15 @@ module.exports = {
                         ]
                     }
                     ]
+            },
+            {
+                title: 'Redis',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: [
+                    '/Redis/Redis学习（一）｜基础部分',
+                    '/Redis/Redis学习（二）｜深入学习Redis 持久化.md'
+                ]
             },
             {
                         title: '待分类',
