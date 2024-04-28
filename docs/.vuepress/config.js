@@ -79,7 +79,9 @@ module.exports = {
                 children: [
                     '/Redis/Redis学习（一）｜基础部分',
                     '/Redis/Redis学习（二）｜深入学习Redis 持久化.md',
-                    '/Redis/Redis学习（三）｜ Redis高可用和容错机制详解.md'
+                    '/Redis/Redis学习（三）｜ Redis高可用和容错机制详解.md',
+                    '/Redis/Redis学习（四）｜深入学习Redis的高级数据结构.md',
+                    '/Redis/Redis学习（五）｜深入学习Redis的高级功能-发布与订阅'
                 ]
             },
             {
