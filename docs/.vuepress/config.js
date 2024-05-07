@@ -84,7 +84,9 @@ module.exports = {
                     '/Redis/Redis学习（五）｜深入学习Redis的高级功能-发布与订阅',
                     '/Redis/Redis学习（六）｜深入理解Redis分布式锁',
                     '/Redis/Redis学习（七）｜如何保证Redis中的数据都是热点数据',
-                    '/Redis/Redis学习（八）｜什么是缓存雪崩、击穿、穿透？'
+                    '/Redis/Redis学习（八）｜什么是缓存雪崩、击穿、穿透？',
+                    '/Redis/Redis学习（九）｜如何保证MySQL和Redis的数据一致性',
+                    '/Redis/Redis学习（十）｜使用消息队列的重试机制实现MySQL和Redis的数据一致性.md'
                 ]
             },
             {
