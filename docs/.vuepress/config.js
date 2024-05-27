@@ -18,6 +18,14 @@ module.exports = {
 //        },
       ],
       sidebar:[
+           {
+              title: 'java小抄',
+              collapsable: false,
+              sidebarDepth: 1,
+              children: [
+                  '/java小抄/Java小抄(一)｜Java中的List与Set转换.md'
+              ]
+          },
           {
               title: '设计模式',
               collapsable: true,
@@ -47,34 +55,9 @@ module.exports = {
                 '/消息中间件/Kafka｜处理 Kafka 消息丢失的有效措施.md'
                 ]
             },
-            { title: '面试',
-                collapsable: false,
-                sidebarDepth: 1,
-                children: [
-                    { title: 'java',
-                        collapsable: false,
-                        sidebarDepth: 1,
-                        children: [
-                            '/面试题/java/多线程如何停止一个线程.md',
-                            '/面试题/java/什么是弱引用.md',
-                            '/面试题/java/解释 null 和 “null“ 之间的区别，并举例说明它们在编程中的使用场景.md',
-                            '/面试题/java/Spring和Spring Boot之间有什么关联和区别.md',
-                            '/面试题/java/Java 中 throw 与 throws 的区别是什么？.md',
-                            '/面试题/java/Java中有哪些不同强度的引用类型？.md'
-                        ]
-                    },
-                    { title: '数据库',
-                        collapsable: false,
-                        sidebarDepth: 1,
-                        children: [
-                            '/面试题/数据库/MySQL|为什么不推荐用外键？.md'
-                        ]
-                    }
-                    ]
-            },
             {
                 title: 'Redis',
-                collapsable: false,
+                collapsable: true,
                 sidebarDepth: 1,
                 children: [
                     '/Redis/Redis学习（一）｜基础部分',
@@ -97,7 +80,31 @@ module.exports = {
                             '/面试题/版本管理面试题｜SVN和Git有什么区别？.md',
                             '/面试题/版本管理｜Git -目前最好的版本管理工具.md'
                         ]
-            }
+            },  { title: '面试',
+                              collapsable: false,
+                              sidebarDepth: 1,
+                              children: [
+                                  { title: 'java',
+                                      collapsable: false,
+                                      sidebarDepth: 1,
+                                      children: [
+                                          '/面试题/java/多线程如何停止一个线程.md',
+                                          '/面试题/java/什么是弱引用.md',
+                                          '/面试题/java/解释 null 和 “null“ 之间的区别，并举例说明它们在编程中的使用场景.md',
+                                          '/面试题/java/Spring和Spring Boot之间有什么关联和区别.md',
+                                          '/面试题/java/Java 中 throw 与 throws 的区别是什么？.md',
+                                          '/面试题/java/Java中有哪些不同强度的引用类型？.md'
+                                      ]
+                                  },
+                                  { title: '数据库',
+                                      collapsable: false,
+                                      sidebarDepth: 1,
+                                      children: [
+                                          '/面试题/数据库/MySQL|为什么不推荐用外键？.md'
+                                      ]
+                                  }
+                                  ]
+                          }
       ]
   },
   plugins: [
